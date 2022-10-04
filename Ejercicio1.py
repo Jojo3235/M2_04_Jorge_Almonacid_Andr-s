@@ -36,8 +36,8 @@ print(colores_luz)
 print(sólidos_platónicos_y_más)
 tupla3=([3,4,2], 2)
 tupla3[0].append(3)
-print(tupla3)
+print(tupla3,"\n")
 
 
-colores_luz.remove("amarillo")
-print(colores_luz)
+colores_luz.clear()
+print("Estos son los elementos de la lista:", colores_luz)
