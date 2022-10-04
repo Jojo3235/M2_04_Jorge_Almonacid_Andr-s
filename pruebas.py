@@ -1,7 +1,14 @@
-#Ejercicio 1
-from re import S
-
-
+x=(2,3 ,3)
+y=(3,3,3)
+z=x+y
+print(z)
+colores_luz=[]
+colores_luz.append("verde")
+print(colores_luz)
+solido=("s","o","l","i")
+solido2=("d","o")
+solido_total=solido+solido2
+print(solido_total)
 colores_luz = ["azul", "rojo", "verde"]
 sólidos_platónicos = ("tetraedro", "cubo", "octaedro", "dodecaedro", "icosaedro")
 
@@ -19,25 +26,4 @@ print("La longitud de la lista es de:",len(colores_luz))
 print("La longitud de la tupla es de:",len(sólidos_platónicos))
 
 elemento1 = input("¿Qué elemento quieres buscar en la lista?: ")
-if elemento1 in colores_luz:
-    print(True,"\nEl elemento se encuentra en esta lista")
-else:
-    print(False,"\nEl elemento no se encuentra en esta lista")
-
-elemento2 = input("¿Qué elemento buscas?: ")
-if elemento2 in sólidos_platónicos:
-    print(True,"\nEl elemento se encuentra en esta tupla")
-else:
-    print(False,"\nEl elemento no se encuentra en esta tupla\n")
-
-colores_luz.append("verde") 
-sólidos_platónicos_y_más=sólidos_platónicos + ("tetraedro", "patata")
-print(colores_luz)
-print(sólidos_platónicos_y_más)
-tupla3=([3,4,2], 2)
-tupla3[0].append(3)
-print(tupla3)
-
-
-colores_luz.remove("amarillo")
-print(colores_luz)
+print(elemento1 in colores_luz)
