@@ -1,3 +1,6 @@
+from numpy import s_
+
+
 x=(2,3 ,3)
 y=(3,3,3)
 z=x+y
@@ -27,3 +30,6 @@ print("La longitud de la tupla es de:",len(sólidos_platónicos))
 
 elemento1 = input("¿Qué elemento quieres buscar en la lista?: ")
 print(elemento1 in colores_luz)
+s={3,5,2}
+for i in s:
+    print(i)

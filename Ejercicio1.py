@@ -39,6 +39,6 @@ tupla3=([3,4,2], 2)             #También podemos añadir elementos a una lista 
 tupla3[0].append(3)
 print(tupla3,"\n")
 
-
+#No podemos eliminar los elementos de una tupla
 colores_luz.clear()             #Eliminamos todos los elementos de la lista
 print("Estos son los elementos de la lista:", colores_luz)
