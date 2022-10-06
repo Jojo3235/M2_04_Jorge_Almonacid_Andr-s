@@ -86,3 +86,7 @@ else:
     pass            #Cuando i = 3 decimos que pase el bucle 
 sumatorio = sum(lista_numeros)      #Definimos la variable sumatorio como la suma de los términos de la lista
 print(sumatorio)        #Imprimimos el sumatorio
+
+#Ejercicio 4
+media=sumatorio/len(lista_numeros)  #Creamos una función llamada media en la que dividimos la suma entra la longitud de la lista
+print(media)    #Imprimimos la media
